@@ -2,10 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-logo=1.0">
+    <title>MotoWay</title>
+    <link rel="icon" href="Images/logo.png" type="image/png" sizes="32x32">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('Images/fog.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .header {
+            background-color: #6c0000;
+            padding: 2px;
+            text-align: center;
+        }
+        .logo {
+            width: 5px;
+            height: 5px;
+            border-radius: 10%;
+            display: inline-block;
+            margin-top: 10px;
+            position: center;
+        }
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .phone-image {
+            width: 300px;
+            height: auto;
+        }
+        .text-content {
+            font-size: 25px;
+            color: #d7d7d7;
+            display: flex;
+            flex-direction: column;
+            margin-right: 150px;
+            align-items: center;
+            justify-content: center;
+            margin-top: -200px;
+        }
+        .store {
+            margin-top: -200px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="header">
+        <div class="logo">
+            <img src="Images/logo.png" width="50px" height="50px" alt="logo">
+        </div>
+    </div>
+    <div class="main-content">
+        <img src="Images/account.png" width="20%" height="auto" style="margin-left: 250px;" alt="phone-account" class="phone-image-account">
+        <div class="text-content">
+            <h1>MotoWay</h1>
+            <p>Первое отечественное приложение для мотоциклистов!</p>
+        </div>
+    </div>
+    <div class="store">
+        <img src="Images/App_Store_(iOS)-Badge-Logo.wine.png" width="15%" height="auto" style="margin-left: 780px;" alt="App_Store">
+        <img src="Images/Google_Play-Badge-Logo.wine.png" width="15%" height="auto" style="margin-left: 10px;" alt="Google_Play">
+    </div>
 </body>
 </html>
